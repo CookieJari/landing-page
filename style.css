@@ -1,0 +1,139 @@
+:root{
+    --dark-bg: #1f2937;
+    --quote-bg: #e5e7eb;
+    --action:#3882f6;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.body-con{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* HEADER SECTIONS */
+.header-con{
+    background-color: var(--dark-bg);
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+    /* BANNER OF HEADER SECTION */
+.banner{
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+    flex: 1;
+}
+ul{
+
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding:0px;
+}
+li{
+    margin-left: 20px;
+    color: #e5e7eb
+}
+a{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+    /* CONTENT SECTION OF THE HEADER */
+.contents{
+    padding: 50px 0;
+    display: flex;
+    color: #e5e7eb;
+    padding: 100px 0;
+}
+.content-text{
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.title-content{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.description{
+    font-size: 18px;
+}
+
+.header-button{
+    background-color: var(--action);
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    color: #f9faf8;
+    margin-top: 15px;
+}
+
+.img-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(100, 105, 105);
+}
+
+/* INFORMATION SECTION */
+.info-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-info{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 40px;
+}
+
+    /* BOXES */
+.boxes-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    
+}
+.box-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    text-align: center;
+}
+.box{
+    border: 3px solid var(--action);
+    border-radius: 8px;
+    height: 125px;
+    width: 125px;
+    margin-bottom: 8px;
+}
+.box-desc{
+    color: #2f3641;
+    font-size: 14px;
+}
