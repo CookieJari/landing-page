@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
 :root{
     --dark-bg: #1f2937;
     --quote-bg: #e5e7eb;
@@ -7,7 +9,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto',sans-serif;
 }
 .body-con{
     display: flex;
@@ -22,7 +24,7 @@ body{
     flex:1;
     display: flex;
     flex-direction: column;
-    padding: 0 20%;
+    padding: 0 25%;
 }
     /* BANNER OF HEADER SECTION */
 .banner{
@@ -55,7 +57,6 @@ a{
 }
     /* CONTENT SECTION OF THE HEADER */
 .contents{
-    padding: 50px 0;
     display: flex;
     color: #e5e7eb;
     padding: 100px 0;
@@ -79,7 +80,7 @@ a{
 .header-button{
     background-color: var(--action);
     padding: 10px 20px;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 16px;
     border-radius: 8px;
     border: none;
@@ -115,6 +116,7 @@ a{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 50px;
     gap: 60px;
     
 }
@@ -136,4 +138,37 @@ a{
 .box-desc{
     color: #2f3641;
     font-size: 14px;
+    font-weight: 400;
 }
+
+/* QUOTE AREA */
+.quote-sec-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 25%;
+
+    background-color: var(--quote-bg);
+}
+
+.quote-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote-footer{
+    flex: 1;
+    width: 100%;
+    font-weight: 700;
+    text-align: right;
+}
+
