@@ -138,21 +138,20 @@ a{
 .box-con{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    width: 200px;
+    width: 250px;
     text-align: center;
 }
 .box{
-    
-    height: 500px;
-    width: 200px;
+    height: 520px;
+    width: 100%;
     margin-bottom: 15px;
     overflow: visible;
 }
 .box-image{
-    border: 4px solid var(--action);
-    border-radius: 8px;
+    
+    border-radius: 30px;
     height: 100%;
     width: 100%;
     object-fit: cover;
