@@ -24,7 +24,8 @@ body{
     flex:1;
     display: flex;
     flex-direction: column;
-    padding: 0 25%;
+    padding: 0 22%;
+
 }
     /* BANNER OF HEADER SECTION */
 .banner{
@@ -59,15 +60,18 @@ a{
 .contents{
     display: flex;
     color: #e5e7eb;
-    height: 250px;
-    padding: 100px 0;
+    padding-top: 100px;
     flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    gap: 15px;
 }
 .content-text{
     flex: 1;
     flex-direction: column;
     justify-content: space-between;
-    padding-right: 20px;
+    
 }
 .title-content{
     color: #f9faf8;
@@ -101,19 +105,22 @@ a{
 }
 
 .img-container{
-    flex: 1;
+    height: 250px;
+    width: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .title-image{
-    height: auto;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 /* INFORMATION SECTION */
 .info-con{
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
