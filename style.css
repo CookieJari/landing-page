@@ -29,7 +29,7 @@ body{
 }
     /* BANNER OF HEADER SECTION */
 .banner{
-
+    background-color:#323e54;
     display: flex;
     flex: 1;
     align-items: center;
@@ -85,7 +85,7 @@ a{
 
         /* HEADER BUTTON */
 .header-button{
-    background-color: var(--action);
+    background-color:#394d6c;
     display: inline-block;
     padding: 10px 20px;
     font-weight: 700;
@@ -97,10 +97,10 @@ a{
 }
 .header-button:hover{
     opacity: 1;
-    background-color: #6c9ce9;
+    background-color: #53678b;
 }
 .header-button:active{
-    background-color: #3e6cb6;
+    background-color: #53678b;
     border: 1px #000000 solid;
 }
 
