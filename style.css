@@ -261,3 +261,17 @@ align-items: center;
     padding: 30px;
     color: #f9faf8;
 }
+
+@media screen and (max-width: 480px) {
+    .action-con {
+        padding: 40px;
+    }
+
+    .call-con {
+        padding: 10px 0;
+    }
+
+    .call-text {
+        width: 80%;
+    }
+  }
